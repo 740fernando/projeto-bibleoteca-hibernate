@@ -2,7 +2,7 @@ package entities;
 
 import java.util.Date;
 
-public class Rg {
+public class RG {
 
 	private Integer id;
 	private Cliente cliente;
