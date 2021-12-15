@@ -4,8 +4,8 @@
 
 <hibernate-mapping package="entities">
 	<class name="Livro" table="livro">
-		<id name="isbn" column="isbn">
-			<generator class="assigned"/> <!-- class assigned = Identifica a definicao da chave primaria . O programador é responsavel por definir o id para entidade -->
+		<id name="isbn" column="isbn" length="128">
+			<generator class="assigned"/> <!-- class assigned = Identifica a definicao da chave primaria . O programador é responsavel por definir a chave primaria para entidade -->
 		</id>
 		
 		<property name="nome" column="nome" not-null="true" />

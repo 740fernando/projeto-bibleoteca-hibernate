@@ -7,7 +7,7 @@ public class Cliente {
 	
 	private Integer id;
 	private String nome;
-	private Rg rg;
+	private RG rg;
 	private Set<Livro> livros = new LinkedHashSet<Livro>();
 	
 	public Integer getId() {
@@ -22,10 +22,10 @@ public class Cliente {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public Rg getRg() {
+	public RG getRg() {
 		return rg;
 	}
-	public void setRg(Rg rg) {
+	public void setRg(RG rg) {
 		this.rg = rg;
 	}
 	public Set<Livro> getLivros() {
