@@ -1,5 +1,5 @@
 
-<h1 align="center">Diagrama utilizado para o desenvolvimento do projeto :</h1>
+<h1 align="center">Diagrama utilizado:</h1>
 
 
 <p align="center">
